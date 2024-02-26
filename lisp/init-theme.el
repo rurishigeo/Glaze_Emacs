@@ -12,7 +12,7 @@
   :config
   (setq fonts (cond (*is-mac* '("Monaco"))
                     (*is-linux* '("Hack Nerd Font"))
-                    (*is-windows* '("MicroSoft YaHei Mono")))))
+                    (*is-windows* '("Sarasa Mono SC")))))
 
 (set-face-attribute 'default nil :font
                     (format "%s:pixelsize=%d" (car fonts) 22))
