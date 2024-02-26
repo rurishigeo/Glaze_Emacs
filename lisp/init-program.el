@@ -24,6 +24,7 @@
 
 ;; treesit-auto: Incremental parsing and syntax highlighting
 (use-package treesit-auto
+  :demand t
   :config
   (setq treesit-font-lock-level 4) ;; Set font-lock level for treesit
   (setq treesit-auto-install 'prompt) ;; Set auto-installation to prompt
